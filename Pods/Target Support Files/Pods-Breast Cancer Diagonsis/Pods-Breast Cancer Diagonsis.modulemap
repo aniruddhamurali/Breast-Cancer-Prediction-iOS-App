@@ -1,0 +1,6 @@
+framework module Pods_Breast_Cancer_Diagonsis {
+  umbrella header "Pods-Breast Cancer Diagonsis-umbrella.h"
+
+  export *
+  module * { export * }
+}

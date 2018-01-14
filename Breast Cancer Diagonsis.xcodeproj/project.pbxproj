@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C89F67B1FF82BF500014D29 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C89F67E1FF82BF500014D29 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C89F6841FF83DBB00014D29 /* PredictionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89F6831FF83DBB00014D29 /* PredictionViewController.swift */; };
+		623A6578AB4B343ACA186DF2 /* Pods_Breast_Cancer_Diagonsis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65762DD4C88353EB4493E011 /* Pods_Breast_Cancer_Diagonsis.framework */; };
+		B6B07E241FF5B4D300C331E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B07E231FF5B4D300C331E1 /* AppDelegate.swift */; };
+		B6B07E261FF5B4D300C331E1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B07E251FF5B4D300C331E1 /* FirstViewController.swift */; };
+		B6B07E281FF5B4D300C331E1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B07E271FF5B4D300C331E1 /* SecondViewController.swift */; };
+		B6B07E2B1FF5B4D300C331E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B07E291FF5B4D300C331E1 /* Main.storyboard */; };
+		B6B07E2D1FF5B4D300C331E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B07E2C1FF5B4D300C331E1 /* Assets.xcassets */; };
+		B6B07E301FF5B4D300C331E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B07E2E1FF5B4D300C331E1 /* LaunchScreen.storyboard */; };
+		B6B07E3B1FF5B4D300C331E1 /* Breast_Cancer_DiagonsisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B07E3A1FF5B4D300C331E1 /* Breast_Cancer_DiagonsisTests.swift */; };
+		B6B07E461FF5BEB400C331E1 /* PredictTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B07E451FF5BEB400C331E1 /* PredictTableViewController.swift */; };
+		B6CCB5FD200B86A20045504F /* spalsh-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB5FC200B86A20045504F /* spalsh-icon.png */; };
+		B6CCB61D200B88950045504F /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB5FF200B888F0045504F /* Icon-48.png */; };
+		B6CCB61E200B88950045504F /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB600200B888F0045504F /* Icon-512.png */; };
+		B6CCB61F200B88950045504F /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB601200B88900045504F /* Icon-64.png */; };
+		B6CCB620200B88950045504F /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB602200B88900045504F /* Icon-50.png */; };
+		B6CCB621200B88950045504F /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB603200B88900045504F /* Icon-20.png */; };
+		B6CCB622200B88950045504F /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB604200B88900045504F /* Icon-16.png */; };
+		B6CCB623200B88950045504F /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB605200B88900045504F /* Icon-152.png */; };
+		B6CCB624200B88950045504F /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB606200B88910045504F /* Icon-100.png */; };
+		B6CCB625200B88950045504F /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB607200B88910045504F /* Icon-196.png */; };
+		B6CCB626200B88950045504F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB608200B88910045504F /* Icon-72.png */; };
+		B6CCB627200B88950045504F /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB609200B88910045504F /* Icon-114.png */; };
+		B6CCB628200B88950045504F /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60A200B88910045504F /* Icon-32.png */; };
+		B6CCB629200B88950045504F /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60B200B88920045504F /* Icon-57.png */; };
+		B6CCB62A200B88950045504F /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60C200B88920045504F /* Icon-60.png */; };
+		B6CCB62B200B88950045504F /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60D200B88920045504F /* Icon-172.png */; };
+		B6CCB62C200B88950045504F /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60E200B88920045504F /* Icon-80.png */; };
+		B6CCB62D200B88950045504F /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB60F200B88920045504F /* Icon-58.png */; };
+		B6CCB62E200B88950045504F /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB610200B88930045504F /* Icon-120.png */; };
+		B6CCB62F200B88950045504F /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB611200B88930045504F /* Icon-29.png */; };
+		B6CCB630200B88950045504F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB612200B88930045504F /* Icon-76.png */; };
+		B6CCB631200B88950045504F /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB613200B88930045504F /* Icon-256.png */; };
+		B6CCB632200B88950045504F /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB614200B88930045504F /* Icon-40.png */; };
+		B6CCB633200B88950045504F /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB615200B88940045504F /* Icon-128.png */; };
+		B6CCB634200B88950045504F /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB616200B88940045504F /* Icon-88.png */; };
+		B6CCB635200B88950045504F /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB617200B88940045504F /* Icon-1024.png */; };
+		B6CCB636200B88950045504F /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB618200B88940045504F /* Icon-55.png */; };
+		B6CCB637200B88950045504F /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB619200B88950045504F /* Icon-144.png */; };
+		B6CCB638200B88950045504F /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61A200B88950045504F /* Icon-87.png */; };
+		B6CCB639200B88950045504F /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61B200B88950045504F /* Icon-167.png */; };
+		B6CCB63A200B88950045504F /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61C200B88950045504F /* Icon-180.png */; };
+		E712EB4CAEA590F4A3F0DB21 /* Pods_Breast_Cancer_DiagonsisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0A96718DCE76080626167 /* Pods_Breast_Cancer_DiagonsisTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B07E371FF5B4D300C331E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B07E181FF5B4D300C331E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6B07E1F1FF5B4D300C331E1;
+			remoteInfo = "Breast Cancer Diagonsis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C89F6821FF82BF600014D29 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C89F67E1FF82BF500014D29 /* (null) in Embed Frameworks */,
+				0C89F67B1FF82BF500014D29 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C89F6831FF83DBB00014D29 /* PredictionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewController.swift; sourceTree = "<group>"; };
+		48E6B21C9027B89D80BD7E83 /* Pods-Breast Cancer DiagonsisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer DiagonsisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer DiagonsisTests/Pods-Breast Cancer DiagonsisTests.release.xcconfig"; sourceTree = "<group>"; };
+		65762DD4C88353EB4493E011 /* Pods_Breast_Cancer_Diagonsis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breast_Cancer_Diagonsis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6783191553CEBD490AFBD705 /* Pods-Breast Cancer Diagonsis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer Diagonsis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer Diagonsis/Pods-Breast Cancer Diagonsis.debug.xcconfig"; sourceTree = "<group>"; };
+		6804511CC13ED05DDB31F6CA /* Pods-Breast Cancer Diagonsis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer Diagonsis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer Diagonsis/Pods-Breast Cancer Diagonsis.release.xcconfig"; sourceTree = "<group>"; };
+		9390DD6AAAF04FA940C1C55A /* Pods-Breast Cancer DiagonsisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breast Cancer DiagonsisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breast Cancer DiagonsisTests/Pods-Breast Cancer DiagonsisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F0A96718DCE76080626167 /* Pods_Breast_Cancer_DiagonsisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breast_Cancer_DiagonsisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B07E201FF5B4D300C331E1 /* Breast Cancer Diagonsis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breast Cancer Diagonsis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B07E231FF5B4D300C331E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6B07E251FF5B4D300C331E1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B6B07E271FF5B4D300C331E1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B6B07E2A1FF5B4D300C331E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B07E2C1FF5B4D300C331E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B07E2F1FF5B4D300C331E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B07E311FF5B4D300C331E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B07E361FF5B4D300C331E1 /* Breast Cancer DiagonsisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breast Cancer DiagonsisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B07E3A1FF5B4D300C331E1 /* Breast_Cancer_DiagonsisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_Cancer_DiagonsisTests.swift; sourceTree = "<group>"; };
+		B6B07E3C1FF5B4D400C331E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B07E451FF5BEB400C331E1 /* PredictTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictTableViewController.swift; sourceTree = "<group>"; };
+		B6CCB5FC200B86A20045504F /* spalsh-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spalsh-icon.png"; sourceTree = "<group>"; };
+		B6CCB5FF200B888F0045504F /* Icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-48.png"; sourceTree = "<group>"; };
+		B6CCB600200B888F0045504F /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		B6CCB601200B88900045504F /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-64.png"; sourceTree = "<group>"; };
+		B6CCB602200B88900045504F /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		B6CCB603200B88900045504F /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
+		B6CCB604200B88900045504F /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
+		B6CCB605200B88900045504F /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		B6CCB606200B88910045504F /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
+		B6CCB607200B88910045504F /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-196.png"; sourceTree = "<group>"; };
+		B6CCB608200B88910045504F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B6CCB609200B88910045504F /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		B6CCB60A200B88910045504F /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-32.png"; sourceTree = "<group>"; };
+		B6CCB60B200B88920045504F /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		B6CCB60C200B88920045504F /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		B6CCB60D200B88920045504F /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-172.png"; sourceTree = "<group>"; };
+		B6CCB60E200B88920045504F /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		B6CCB60F200B88920045504F /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		B6CCB610200B88930045504F /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		B6CCB611200B88930045504F /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		B6CCB612200B88930045504F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		B6CCB613200B88930045504F /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
+		B6CCB614200B88930045504F /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		B6CCB615200B88940045504F /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128.png"; sourceTree = "<group>"; };
+		B6CCB616200B88940045504F /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-88.png"; sourceTree = "<group>"; };
+		B6CCB617200B88940045504F /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		B6CCB618200B88940045504F /* Icon-55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-55.png"; sourceTree = "<group>"; };
+		B6CCB619200B88950045504F /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		B6CCB61A200B88950045504F /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
+		B6CCB61B200B88950045504F /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		B6CCB61C200B88950045504F /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B07E1D1FF5B4D300C331E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623A6578AB4B343ACA186DF2 /* Pods_Breast_Cancer_Diagonsis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B07E331FF5B4D300C331E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E712EB4CAEA590F4A3F0DB21 /* Pods_Breast_Cancer_DiagonsisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35F68F9233B66BC645190292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65762DD4C88353EB4493E011 /* Pods_Breast_Cancer_Diagonsis.framework */,
+				A5F0A96718DCE76080626167 /* Pods_Breast_Cancer_DiagonsisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6B07E171FF5B4D300C331E1 = {
+			isa = PBXGroup;
+			children = (
+				B6B07E221FF5B4D300C331E1 /* Breast Cancer Diagonsis */,
+				B6B07E391FF5B4D300C331E1 /* Breast Cancer DiagonsisTests */,
+				B6B07E211FF5B4D300C331E1 /* Products */,
+				35F68F9233B66BC645190292 /* Frameworks */,
+				D964874D60870CBFE5DE504E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B07E211FF5B4D300C331E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B07E201FF5B4D300C331E1 /* Breast Cancer Diagonsis.app */,
+				B6B07E361FF5B4D300C331E1 /* Breast Cancer DiagonsisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B07E221FF5B4D300C331E1 /* Breast Cancer Diagonsis */ = {
+			isa = PBXGroup;
+			children = (
+				B6CCB63B200B88A60045504F /* icons */,
+				B6CCB5FE200B87D90045504F /* images */,
+				B6B07E231FF5B4D300C331E1 /* AppDelegate.swift */,
+				B6B07E251FF5B4D300C331E1 /* FirstViewController.swift */,
+				B6B07E271FF5B4D300C331E1 /* SecondViewController.swift */,
+				B6B07E291FF5B4D300C331E1 /* Main.storyboard */,
+				B6B07E2C1FF5B4D300C331E1 /* Assets.xcassets */,
+				B6B07E2E1FF5B4D300C331E1 /* LaunchScreen.storyboard */,
+				B6B07E311FF5B4D300C331E1 /* Info.plist */,
+				B6B07E451FF5BEB400C331E1 /* PredictTableViewController.swift */,
+				0C89F6831FF83DBB00014D29 /* PredictionViewController.swift */,
+			);
+			path = "Breast Cancer Diagonsis";
+			sourceTree = "<group>";
+		};
+		B6B07E391FF5B4D300C331E1 /* Breast Cancer DiagonsisTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6B07E3A1FF5B4D300C331E1 /* Breast_Cancer_DiagonsisTests.swift */,
+				B6B07E3C1FF5B4D400C331E1 /* Info.plist */,
+			);
+			path = "Breast Cancer DiagonsisTests";
+			sourceTree = "<group>";
+		};
+		B6CCB5FE200B87D90045504F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B6CCB5FC200B86A20045504F /* spalsh-icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B6CCB63B200B88A60045504F /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				B6CCB604200B88900045504F /* Icon-16.png */,
+				B6CCB603200B88900045504F /* Icon-20.png */,
+				B6CCB611200B88930045504F /* Icon-29.png */,
+				B6CCB60A200B88910045504F /* Icon-32.png */,
+				B6CCB614200B88930045504F /* Icon-40.png */,
+				B6CCB5FF200B888F0045504F /* Icon-48.png */,
+				B6CCB602200B88900045504F /* Icon-50.png */,
+				B6CCB618200B88940045504F /* Icon-55.png */,
+				B6CCB60B200B88920045504F /* Icon-57.png */,
+				B6CCB60F200B88920045504F /* Icon-58.png */,
+				B6CCB60C200B88920045504F /* Icon-60.png */,
+				B6CCB601200B88900045504F /* Icon-64.png */,
+				B6CCB608200B88910045504F /* Icon-72.png */,
+				B6CCB612200B88930045504F /* Icon-76.png */,
+				B6CCB60E200B88920045504F /* Icon-80.png */,
+				B6CCB61A200B88950045504F /* Icon-87.png */,
+				B6CCB616200B88940045504F /* Icon-88.png */,
+				B6CCB606200B88910045504F /* Icon-100.png */,
+				B6CCB609200B88910045504F /* Icon-114.png */,
+				B6CCB610200B88930045504F /* Icon-120.png */,
+				B6CCB615200B88940045504F /* Icon-128.png */,
+				B6CCB619200B88950045504F /* Icon-144.png */,
+				B6CCB605200B88900045504F /* Icon-152.png */,
+				B6CCB61B200B88950045504F /* Icon-167.png */,
+				B6CCB60D200B88920045504F /* Icon-172.png */,
+				B6CCB61C200B88950045504F /* Icon-180.png */,
+				B6CCB607200B88910045504F /* Icon-196.png */,
+				B6CCB613200B88930045504F /* Icon-256.png */,
+				B6CCB600200B888F0045504F /* Icon-512.png */,
+				B6CCB617200B88940045504F /* Icon-1024.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		D964874D60870CBFE5DE504E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6783191553CEBD490AFBD705 /* Pods-Breast Cancer Diagonsis.debug.xcconfig */,
+				6804511CC13ED05DDB31F6CA /* Pods-Breast Cancer Diagonsis.release.xcconfig */,
+				9390DD6AAAF04FA940C1C55A /* Pods-Breast Cancer DiagonsisTests.debug.xcconfig */,
+				48E6B21C9027B89D80BD7E83 /* Pods-Breast Cancer DiagonsisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B07E1F1FF5B4D300C331E1 /* Breast Cancer Diagonsis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B07E3F1FF5B4D400C331E1 /* Build configuration list for PBXNativeTarget "Breast Cancer Diagonsis" */;
+			buildPhases = (
+				42831A7263C4C890CF102A01 /* [CP] Check Pods Manifest.lock */,
+				B6B07E1C1FF5B4D300C331E1 /* Sources */,
+				B6B07E1D1FF5B4D300C331E1 /* Frameworks */,
+				B6B07E1E1FF5B4D300C331E1 /* Resources */,
+				0C89F6821FF82BF600014D29 /* Embed Frameworks */,
+				6B9D2505E1CFEB98A13FD3E5 /* [CP] Embed Pods Frameworks */,
+				4FFA8ADDEAF6B35D02AA9211 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breast Cancer Diagonsis";
+			productName = "Breast Cancer Diagonsis";
+			productReference = B6B07E201FF5B4D300C331E1 /* Breast Cancer Diagonsis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6B07E351FF5B4D300C331E1 /* Breast Cancer DiagonsisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B07E421FF5B4D400C331E1 /* Build configuration list for PBXNativeTarget "Breast Cancer DiagonsisTests" */;
+			buildPhases = (
+				430DAED4697D3A0E13165BBF /* [CP] Check Pods Manifest.lock */,
+				B6B07E321FF5B4D300C331E1 /* Sources */,
+				B6B07E331FF5B4D300C331E1 /* Frameworks */,
+				B6B07E341FF5B4D300C331E1 /* Resources */,
+				71D968CD4C95938089B932C3 /* [CP] Embed Pods Frameworks */,
+				83E1D929D00993AE972B2B11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B07E381FF5B4D300C331E1 /* PBXTargetDependency */,
+			);
+			name = "Breast Cancer DiagonsisTests";
+			productName = "Breast Cancer DiagonsisTests";
+			productReference = B6B07E361FF5B4D300C331E1 /* Breast Cancer DiagonsisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B07E181FF5B4D300C331E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aniruddha Murali";
+				TargetAttributes = {
+					B6B07E1F1FF5B4D300C331E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B6B07E351FF5B4D300C331E1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6B07E1F1FF5B4D300C331E1;
+					};
+				};
+			};
+			buildConfigurationList = B6B07E1B1FF5B4D300C331E1 /* Build configuration list for PBXProject "Breast Cancer Diagonsis" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B07E171FF5B4D300C331E1;
+			productRefGroup = B6B07E211FF5B4D300C331E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B07E1F1FF5B4D300C331E1 /* Breast Cancer Diagonsis */,
+				B6B07E351FF5B4D300C331E1 /* Breast Cancer DiagonsisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B07E1E1FF5B4D300C331E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B07E301FF5B4D300C331E1 /* LaunchScreen.storyboard in Resources */,
+				B6CCB620200B88950045504F /* Icon-50.png in Resources */,
+				B6CCB636200B88950045504F /* Icon-55.png in Resources */,
+				B6CCB638200B88950045504F /* Icon-87.png in Resources */,
+				B6CCB621200B88950045504F /* Icon-20.png in Resources */,
+				B6CCB635200B88950045504F /* Icon-1024.png in Resources */,
+				B6CCB61E200B88950045504F /* Icon-512.png in Resources */,
+				B6CCB639200B88950045504F /* Icon-167.png in Resources */,
+				B6CCB61D200B88950045504F /* Icon-48.png in Resources */,
+				B6CCB629200B88950045504F /* Icon-57.png in Resources */,
+				B6CCB626200B88950045504F /* Icon-72.png in Resources */,
+				B6CCB61F200B88950045504F /* Icon-64.png in Resources */,
+				B6CCB632200B88950045504F /* Icon-40.png in Resources */,
+				B6CCB625200B88950045504F /* Icon-196.png in Resources */,
+				B6CCB5FD200B86A20045504F /* spalsh-icon.png in Resources */,
+				B6CCB628200B88950045504F /* Icon-32.png in Resources */,
+				B6CCB62B200B88950045504F /* Icon-172.png in Resources */,
+				B6CCB62E200B88950045504F /* Icon-120.png in Resources */,
+				B6CCB631200B88950045504F /* Icon-256.png in Resources */,
+				B6B07E2D1FF5B4D300C331E1 /* Assets.xcassets in Resources */,
+				B6CCB63A200B88950045504F /* Icon-180.png in Resources */,
+				B6CCB623200B88950045504F /* Icon-152.png in Resources */,
+				B6CCB62D200B88950045504F /* Icon-58.png in Resources */,
+				B6CCB637200B88950045504F /* Icon-144.png in Resources */,
+				B6B07E2B1FF5B4D300C331E1 /* Main.storyboard in Resources */,
+				B6CCB630200B88950045504F /* Icon-76.png in Resources */,
+				B6CCB62F200B88950045504F /* Icon-29.png in Resources */,
+				B6CCB62A200B88950045504F /* Icon-60.png in Resources */,
+				B6CCB62C200B88950045504F /* Icon-80.png in Resources */,
+				B6CCB624200B88950045504F /* Icon-100.png in Resources */,
+				B6CCB634200B88950045504F /* Icon-88.png in Resources */,
+				B6CCB627200B88950045504F /* Icon-114.png in Resources */,
+				B6CCB633200B88950045504F /* Icon-128.png in Resources */,
+				B6CCB622200B88950045504F /* Icon-16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B07E341FF5B4D300C331E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42831A7263C4C890CF102A01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breast Cancer Diagonsis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430DAED4697D3A0E13165BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breast Cancer DiagonsisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFA8ADDEAF6B35D02AA9211 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer Diagonsis/Pods-Breast Cancer Diagonsis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9D2505E1CFEB98A13FD3E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer Diagonsis/Pods-Breast Cancer Diagonsis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer Diagonsis/Pods-Breast Cancer Diagonsis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D968CD4C95938089B932C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer DiagonsisTests/Pods-Breast Cancer DiagonsisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E1D929D00993AE972B2B11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Breast Cancer DiagonsisTests/Pods-Breast Cancer DiagonsisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B07E1C1FF5B4D300C331E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B07E281FF5B4D300C331E1 /* SecondViewController.swift in Sources */,
+				0C89F6841FF83DBB00014D29 /* PredictionViewController.swift in Sources */,
+				B6B07E241FF5B4D300C331E1 /* AppDelegate.swift in Sources */,
+				B6B07E461FF5BEB400C331E1 /* PredictTableViewController.swift in Sources */,
+				B6B07E261FF5B4D300C331E1 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B07E321FF5B4D300C331E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B07E3B1FF5B4D300C331E1 /* Breast_Cancer_DiagonsisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6B07E381FF5B4D300C331E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6B07E1F1FF5B4D300C331E1 /* Breast Cancer Diagonsis */;
+			targetProxy = B6B07E371FF5B4D300C331E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6B07E291FF5B4D300C331E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B07E2A1FF5B4D300C331E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B07E2E1FF5B4D300C331E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B07E2F1FF5B4D300C331E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B07E3D1FF5B4D400C331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6B07E3E1FF5B4D400C331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B07E401FF5B4D400C331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6783191553CEBD490AFBD705 /* Pods-Breast Cancer Diagonsis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCNPCZTKQF;
+				INFOPLIST_FILE = "Breast Cancer Diagonsis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniruddha.Breast-Cancer-Diagonsis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B07E411FF5B4D400C331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6804511CC13ED05DDB31F6CA /* Pods-Breast Cancer Diagonsis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCNPCZTKQF;
+				INFOPLIST_FILE = "Breast Cancer Diagonsis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniruddha.Breast-Cancer-Diagonsis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6B07E431FF5B4D400C331E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9390DD6AAAF04FA940C1C55A /* Pods-Breast Cancer DiagonsisTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Breast Cancer DiagonsisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniruddha.Breast-Cancer-DiagonsisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breast Cancer Diagonsis.app/Breast Cancer Diagonsis";
+			};
+			name = Debug;
+		};
+		B6B07E441FF5B4D400C331E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E6B21C9027B89D80BD7E83 /* Pods-Breast Cancer DiagonsisTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Breast Cancer DiagonsisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aniruddha.Breast-Cancer-DiagonsisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breast Cancer Diagonsis.app/Breast Cancer Diagonsis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B07E1B1FF5B4D300C331E1 /* Build configuration list for PBXProject "Breast Cancer Diagonsis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B07E3D1FF5B4D400C331E1 /* Debug */,
+				B6B07E3E1FF5B4D400C331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B07E3F1FF5B4D400C331E1 /* Build configuration list for PBXNativeTarget "Breast Cancer Diagonsis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B07E401FF5B4D400C331E1 /* Debug */,
+				B6B07E411FF5B4D400C331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B07E421FF5B4D400C331E1 /* Build configuration list for PBXNativeTarget "Breast Cancer DiagonsisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B07E431FF5B4D400C331E1 /* Debug */,
+				B6B07E441FF5B4D400C331E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B07E181FF5B4D300C331E1 /* Project object */;
+}
