@@ -50,6 +50,7 @@
 		B6CCB638200B88950045504F /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61A200B88950045504F /* Icon-87.png */; };
 		B6CCB639200B88950045504F /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61B200B88950045504F /* Icon-167.png */; };
 		B6CCB63A200B88950045504F /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB61C200B88950045504F /* Icon-180.png */; };
+		B6CCB63D200B9A7C0045504F /* Aniruddha-PP3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6CCB63C200B9A7B0045504F /* Aniruddha-PP3.jpg */; };
 		E712EB4CAEA590F4A3F0DB21 /* Pods_Breast_Cancer_DiagonsisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0A96718DCE76080626167 /* Pods_Breast_Cancer_DiagonsisTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		B6CCB61A200B88950045504F /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
 		B6CCB61B200B88950045504F /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
 		B6CCB61C200B88950045504F /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
+		B6CCB63C200B9A7B0045504F /* Aniruddha-PP3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aniruddha-PP3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 		B6CCB5FE200B87D90045504F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				B6CCB63C200B9A7B0045504F /* Aniruddha-PP3.jpg */,
 				B6CCB5FC200B86A20045504F /* spalsh-icon.png */,
 			);
 			path = images;
@@ -355,6 +358,7 @@
 			files = (
 				B6B07E301FF5B4D300C331E1 /* LaunchScreen.storyboard in Resources */,
 				B6CCB620200B88950045504F /* Icon-50.png in Resources */,
+				B6CCB63D200B9A7C0045504F /* Aniruddha-PP3.jpg in Resources */,
 				B6CCB636200B88950045504F /* Icon-55.png in Resources */,
 				B6CCB638200B88950045504F /* Icon-87.png in Resources */,
 				B6CCB621200B88950045504F /* Icon-20.png in Resources */,
