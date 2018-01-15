@@ -185,7 +185,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
                                                         <outlet property="delegate" destination="rWa-bk-wjq" id="A0E-fl-lIe"/>
                                                     </connections>
@@ -222,7 +222,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -256,7 +256,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -290,7 +290,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -324,7 +324,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -358,7 +358,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -392,7 +392,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -426,7 +426,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -460,7 +460,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -494,7 +494,7 @@
                                                     <rect key="frame" x="140" y="9.5" width="219" height="30"/>
                                                     <color key="textColor" red="0.87580966950000005" green="0.2136951983" blue="0.51726591590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -591,8 +591,8 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-pq-U3C">
                                                 <rect key="frame" x="87" y="27" width="200" height="200"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malignant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zC-Qw-Qe1">
-                                                        <rect key="frame" x="30.5" y="81" width="140" height="39.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zC-Qw-Qe1">
+                                                        <rect key="frame" x="100.5" y="100" width="0.0" height="0.0"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -618,8 +618,8 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Uf-S5-eSo">
                                                 <rect key="frame" x="87" y="27" width="200" height="200"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="91%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK5-bY-61f">
-                                                        <rect key="frame" x="60" y="59" width="81.5" height="48"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK5-bY-61f">
+                                                        <rect key="frame" x="101" y="59" width="0.0" height="0.0"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
