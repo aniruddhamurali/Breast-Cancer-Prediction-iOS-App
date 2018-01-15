@@ -34,7 +34,7 @@ class PredictTableViewController: UITableViewController {
     }
 
     @IBAction func submitButtonClicked(_ sender: Any) {
-        print("Raduis:\(radiusTextField.text ?? "")")
+        //print("Raduis:\(radiusTextField.text ?? "")")
         
         let dict = ["raduis":radiusTextField.text!,
                     "texture":textureTextfField.text!,
@@ -48,20 +48,42 @@ class PredictTableViewController: UITableViewController {
                     "fractalDimension":fractalDimension.text!] as [String : Any]?
         let json = JSON(dict)
         let representation = json.rawString([.castNilToNSNull: true])
-        print(representation)
+        //print(representation)
         
-        let urlString = "https://test123.test/test"
-
-        Alamofire.request(urlString, method: .post, parameters: dict!, encoding: JSONEncoding.default)
+        let urlString = "http://127.0.0.1:5000/predict"
+        
+        //MURALI CODE START
+        //let urlString = "http://127.0.0.1:5000/predict?radius=13.08&texture=15.71&perimeter=85.63&area=520&smoothness=0.1075&compactness=0.127&concavity=0.04568&cp=0.0311&symmetry=0.1967&fd=0.06811"
+        
+/*
+        var urlComponents = URLComponents(string: "http://127.0.0.1:5000/predict")!
+        urlComponents.queryItems = [
+            URLQueryItem(name: "radius", value: String(51.500833)+","+String(-0.141944)),
+            URLQueryItem(name: "z", value: String(6))
+        ]
+        urlComponents.url      // returns https://www.google.de/maps/?q=51.500833,-0.141944&z=6
+        */
+        
+      
+        //print (urlString)
+        
+        //MURALI CODE EMD
+        Alamofire.request(urlString, method: .get, parameters: dict!, encoding: JSONEncoding.default)
             .responseJSON { response in
+                
+                print (request)
+                print (response)
                 switch response.result {
                 case .success:
                     guard let responseVal = response.result.value else{
                         return
                     }
+                    print (responseVal)
                     let responseJson = JSON(responseVal)
                     let prediction = responseJson["prediction"].string ?? ""
                     let accuracy = responseJson["accuracy"].string ?? ""
+                    print(prediction)
+                    print (accuracy)
                     self.predictionViewController?.setLabels(prediction: prediction, accuracy: accuracy)
                     break
                 case .failure( _):
