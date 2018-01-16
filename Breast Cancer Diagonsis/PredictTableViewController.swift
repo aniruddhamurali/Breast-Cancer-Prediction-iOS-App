@@ -50,6 +50,7 @@ class PredictTableViewController: UITableViewController {
         //let representation = json.rawString([.castNilToNSNull: true])
         //print(representation)
         
+        //let urlString = "http://127.0.0.1:5000/predict?"
         let urlString = "https://buildnextai.herokuapp.com/predict?"
             + "radius=" + radiusTextField.text!
             + "&texture=" + textureTextfField.text!
@@ -64,7 +65,8 @@ class PredictTableViewController: UITableViewController {
       
         print (urlString)
         
-        Alamofire.request(urlString, method: .get, parameters: dict!, encoding: JSONEncoding.default)
+        //Alamofire.request(urlString, method: .get, parameters: dict!, encoding: JSONEncoding.default)
+        Alamofire.request(urlString, method: .get)
             .responseJSON { response in
                 
                 print (request)
