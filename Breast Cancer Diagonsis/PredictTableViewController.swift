@@ -86,7 +86,7 @@ class PredictTableViewController: UITableViewController {
                     break
                 case .failure( _):
                     //default
-                    self.predictionViewController?.setLabels(prediction: "", accuracy: "")
+                    self.predictionViewController?.setLabels(prediction: "BENIGN", accuracy: "0")
                     break
                     
                 }

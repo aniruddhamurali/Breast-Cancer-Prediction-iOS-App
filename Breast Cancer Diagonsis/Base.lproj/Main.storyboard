@@ -604,6 +604,10 @@
                                                     <constraint firstItem="8zC-Qw-Qe1" firstAttribute="centerY" secondItem="Fec-pq-U3C" secondAttribute="centerY" id="zZm-Z3-Q9r"/>
                                                 </constraints>
                                             </view>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rzv-YC-9dj">
+                                                <rect key="frame" x="177" y="235" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </activityIndicatorView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="Fec-pq-U3C" firstAttribute="leading" secondItem="98v-MP-Ia9" secondAttribute="leading" constant="87" id="GyF-Oq-sTr"/>
