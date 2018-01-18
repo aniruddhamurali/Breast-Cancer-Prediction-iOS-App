@@ -12,6 +12,7 @@ class PredictionViewController: UIViewController {
     
     @IBOutlet weak var predictionLabel: UILabel!
     
+    @IBOutlet weak var loadingActivityView: UIActivityIndicatorView!
     @IBOutlet weak var accuracyLabel: UILabel!
     
     override func viewDidLoad() {
@@ -28,6 +29,14 @@ class PredictionViewController: UIViewController {
     func setLabels(prediction: String, accuracy: String) {
         predictionLabel.text = prediction
         accuracyLabel.text = "\(accuracy)%"
+    }
+    
+    func animateActivityLoader(animate:Bool) {
+        if(animate){
+            self.loadingActivityView.startAnimating()
+        }else{
+            self.loadingActivityView.stopAnimating()
+        }
     }
 
     /*

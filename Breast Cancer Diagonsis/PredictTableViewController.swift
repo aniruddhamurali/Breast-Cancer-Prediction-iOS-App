@@ -10,7 +10,7 @@ import UIKit
 import SwiftyJSON
 import Alamofire
 
-class PredictTableViewController: UITableViewController {
+class PredictTableViewController: UITableViewController, UITextFieldDelegate {
 
     @IBOutlet weak var radiusTextField: UITextField!
     @IBOutlet weak var textureTextfField: UITextField!
@@ -25,14 +25,35 @@ class PredictTableViewController: UITableViewController {
     var predictionViewController:PredictionViewController?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        radiusTextField.delegate = self
+        textureTextfField.delegate = self
+        perimeterTextField.delegate = self
+        areaTextField.delegate = self
+        smoothnessTextField.delegate = self
+        compactnessTextField.delegate = self
+        concavityTextField.delegate = self
+        concavePointsTextField.delegate = self
+        symmetryTextField.delegate = self
+        fractalDimension.delegate = self
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
+    @IBAction func resetButtonClicked(_ sender: Any) {
+        radiusTextField.text = "17.99"
+        textureTextfField.text = "10.38"
+        perimeterTextField.text = "122.8"
+        areaTextField.text = "1001"
+        smoothnessTextField.text = "0.1184"
+        compactnessTextField.text = "0.2776"
+        concavityTextField.text = "0.3001"
+        concavePointsTextField.text = "0.1471"
+        symmetryTextField.text = "0.2419"
+        fractalDimension.text = "0.07871"
+    }
+    
     @IBAction func submitButtonClicked(_ sender: Any) {
         //print("Raduis:\(radiusTextField.text ?? "")")
         
@@ -83,10 +104,12 @@ class PredictTableViewController: UITableViewController {
                     print(prediction)
                     print (accuracy)
                     self.predictionViewController?.setLabels(prediction: prediction, accuracy: accuracy)
+                    self.predictionViewController?.animateActivityLoader(animate: false)
                     break
                 case .failure( _):
                     //default
                     self.predictionViewController?.setLabels(prediction: "BENIGN", accuracy: "0")
+                    self.predictionViewController?.animateActivityLoader(animate: false)
                     break
                     
                 }
@@ -112,6 +135,11 @@ class PredictTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 11
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool{
+        textField.resignFirstResponder()
+        return true
     }
 
     /*
