@@ -2,7 +2,7 @@
 //  PredictionViewController.swift
 //  Breast Cancer Diagonsis
 //
-//  Created by Kunal Patil on 30/12/17.
+//  @author Aniruddha Murali
 //  Copyright © 2017 Aniruddha Murali. All rights reserved.
 //
 
