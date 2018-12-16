@@ -26,10 +26,12 @@ class PredictionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     func setLabels(prediction: String, accuracy: String) {
         predictionLabel.text = prediction
         accuracyLabel.text = "\(accuracy)%"
     }
+    
     
     func animateActivityLoader(animate:Bool) {
         if(animate){
