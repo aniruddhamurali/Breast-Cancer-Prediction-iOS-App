@@ -71,8 +71,8 @@ class PredictTableViewController: UITableViewController, UITextFieldDelegate {
         //let representation = json.rawString([.castNilToNSNull: true])
         //print(representation)
         
-        let urlString = "http://127.0.0.1:5000/predict?"
-        //let urlString = "https://buildnextai.herokuapp.com/predict?"
+        //let urlString = "http://127.0.0.1:5000/predict?"
+        let urlString = "https://buildnextai.herokuapp.com/predict?"
             + "radius=" + radiusTextField.text!
             + "&texture=" + textureTextfField.text!
             + "&perimeter=" + perimeterTextField.text!
